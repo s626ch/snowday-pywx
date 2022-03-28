@@ -3,6 +3,12 @@ Script that scrapes info from weather.com about your current location.
 
 <b>PLEASE check the config file.<br>It's important to have the script run.</b>
 
+# Requirements
+- `smtplib`
+- `os` & `sys`
+- `selenium`
+- `shutup`
+
 # Config File - `wxconfig.py`
 Stuff that needs configured for the script to work properly:
 - `mailsrvr` - The address to the Mail server used to <b>SEND</b> the messages.
