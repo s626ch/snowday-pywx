@@ -9,6 +9,8 @@ Script that scrapes info from weather.com about your current location.
 - `selenium`
 - `shutup`
 
+install with `pip3 install selenium shutup`
+
 # Config File - `wxconfig.py`
 Stuff that needs configured for the script to work properly:
 - `mailsrvr` - The address to the Mail server used to <b>SEND</b> the messages.
